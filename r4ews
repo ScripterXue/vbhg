@@ -1,0 +1,10 @@
+            plr = game:GetService "Players".LocalPlayer
+            local k = game.Workspace.Ignored.Shop["[Taser] - $1250"]
+            local savedsilencerpos = plr.Character.HumanoidRootPart.Position
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = k.Head.CFrame + Vector3.new(0, 3, 0)
+            wait(0.5)
+            fireclickdetector(game.Workspace.Ignored.Shop["[Taser] - $1250"].ClickDetector)
+            fireclickdetector(game.Workspace.Ignored.Shop["[Taser] - $1250"].ClickDetector)
+
+            plr.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
+            plr.Character.HumanoidRootPart.CFrame = CFrame.new(savedsilencerpos)
